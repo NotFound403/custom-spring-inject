@@ -1,0 +1,12 @@
+logging:
+  level:
+    cn.felord: info
+server:
+  port: 8888
+spring:
+  application:
+    name: sentinel-app
+  cloud:
+    sentinel:
+      datasource: nacos
+#  -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=app
